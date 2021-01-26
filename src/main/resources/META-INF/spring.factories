@@ -1,0 +1,11 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.yss.wealth.infrastructure.config.AopConfiguration,\
+com.yss.wealth.infrastructure.config.SwaggerConfig,\
+com.yss.wealth.infrastructure.config.FeignClientsConfigurationCustom,\
+com.yss.wealth.infrastructure.config.RequestHystrixConcurrencyStrategy,\
+com.yss.wealth.infrastructure.config.TransactionManagerConfig,\
+com.yss.wealth.infrastructure.advise.ExceptionHandlerAdvice,\
+com.yss.wealth.infrastructure.advise.RestfulResponseAdvise,\
+com.yss.wealth.infrastructure.config.WebMvcConfig,\
+com.yss.wealth.infrastructure.config.ComponentConfiguration,\
+com.yss.wealth.infrastructure.config.ThreadPoolExecutorConfiguration
